@@ -1,0 +1,24 @@
+{
+  "vendor_name": "Orchid Studio",
+  "invoice_number": "INV-2026-022",
+  "invoice_date": "2026-03-22",
+  "due_date": "2026-04-21",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Process review - phase 22",
+      "quantity": "1",
+      "unit_price": "923.00",
+      "line_total": "923.00"
+    },
+    {
+      "description": "Configuration service - phase 22",
+      "quantity": "1",
+      "unit_price": "1172.50",
+      "line_total": "1172.50"
+    }
+  ],
+  "subtotal": "2095.50",
+  "tax": "377.19",
+  "total": "2472.69"
+}

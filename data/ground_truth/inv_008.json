@@ -1,0 +1,48 @@
+{
+  "vendor_name": "Harbor Services",
+  "invoice_number": "INV-2026-008",
+  "invoice_date": "2026-03-08",
+  "due_date": "2026-04-07",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Monthly maintenance - phase 8",
+      "quantity": "2",
+      "unit_price": "496.00",
+      "line_total": "992.00"
+    },
+    {
+      "description": "Research summary - phase 8",
+      "quantity": "3",
+      "unit_price": "841.25",
+      "line_total": "2523.75"
+    },
+    {
+      "description": "Process review - phase 8",
+      "quantity": "1",
+      "unit_price": "681.50",
+      "line_total": "681.50"
+    },
+    {
+      "description": "Configuration service - phase 8",
+      "quantity": "2",
+      "unit_price": "931.00",
+      "line_total": "1862.00"
+    },
+    {
+      "description": "Handover session - phase 8",
+      "quantity": "3",
+      "unit_price": "570.75",
+      "line_total": "1712.25"
+    },
+    {
+      "description": "Consulting session - phase 8",
+      "quantity": "1",
+      "unit_price": "1370.75",
+      "line_total": "1370.75"
+    }
+  ],
+  "subtotal": "9142.25",
+  "tax": "1645.60",
+  "total": "10787.85"
+}

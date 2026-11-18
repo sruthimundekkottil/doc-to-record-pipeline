@@ -1,0 +1,30 @@
+{
+  "vendor_name": "Orchid Studio",
+  "invoice_number": "INV-2026-023",
+  "invoice_date": "2026-03-23",
+  "due_date": "2026-04-22",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Configuration service - phase 23",
+      "quantity": "1",
+      "unit_price": "1189.75",
+      "line_total": "1189.75"
+    },
+    {
+      "description": "Handover session - phase 23",
+      "quantity": "1",
+      "unit_price": "829.50",
+      "line_total": "829.50"
+    },
+    {
+      "description": "Consulting session - phase 23",
+      "quantity": "1",
+      "unit_price": "1629.50",
+      "line_total": "1629.50"
+    }
+  ],
+  "subtotal": "3648.75",
+  "tax": "656.78",
+  "total": "4305.53"
+}

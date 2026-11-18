@@ -1,0 +1,30 @@
+{
+  "vendor_name": "Cedar Consulting",
+  "invoice_number": "INV-2026-003",
+  "invoice_date": "2026-03-03",
+  "due_date": "2026-04-02",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Data preparation - phase 3",
+      "quantity": "3",
+      "unit_price": "674.75",
+      "line_total": "2024.25"
+    },
+    {
+      "description": "Quality assurance review - phase 3",
+      "quantity": "1",
+      "unit_price": "460.25",
+      "line_total": "460.25"
+    },
+    {
+      "description": "Deployment support - phase 3",
+      "quantity": "2",
+      "unit_price": "1534.50",
+      "line_total": "3069.00"
+    }
+  ],
+  "subtotal": "5553.50",
+  "tax": null,
+  "total": "5553.50"
+}

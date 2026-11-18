@@ -1,0 +1,60 @@
+{
+  "vendor_name": "Cedar Consulting",
+  "invoice_number": "INV-2026-005",
+  "invoice_date": "2026-03-05",
+  "due_date": "2026-04-04",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Deployment support - phase 5",
+      "quantity": "2",
+      "unit_price": "1569.00",
+      "line_total": "3138.00"
+    },
+    {
+      "description": "Training materials - phase 5",
+      "quantity": "3",
+      "unit_price": "294.50",
+      "line_total": "883.50"
+    },
+    {
+      "description": "Design consultation - phase 5",
+      "quantity": "1",
+      "unit_price": "1019.00",
+      "line_total": "1019.00"
+    },
+    {
+      "description": "Monthly maintenance - phase 5",
+      "quantity": "2",
+      "unit_price": "444.25",
+      "line_total": "888.50"
+    },
+    {
+      "description": "Research summary - phase 5",
+      "quantity": "3",
+      "unit_price": "789.50",
+      "line_total": "2368.50"
+    },
+    {
+      "description": "Process review - phase 5",
+      "quantity": "1",
+      "unit_price": "629.75",
+      "line_total": "629.75"
+    },
+    {
+      "description": "Configuration service - phase 5",
+      "quantity": "2",
+      "unit_price": "879.25",
+      "line_total": "1758.50"
+    },
+    {
+      "description": "Handover session - phase 5",
+      "quantity": "3",
+      "unit_price": "519.00",
+      "line_total": "1557.00"
+    }
+  ],
+  "subtotal": "12242.75",
+  "tax": "2203.70",
+  "total": "14446.45"
+}

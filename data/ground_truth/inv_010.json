@@ -1,0 +1,84 @@
+{
+  "vendor_name": "Harbor Services",
+  "invoice_number": "INV-2026-010",
+  "invoice_date": "2026-03-10",
+  "due_date": "2026-04-09",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Process review - phase 10",
+      "quantity": "1",
+      "unit_price": "716.00",
+      "line_total": "716.00"
+    },
+    {
+      "description": "Configuration service - phase 10",
+      "quantity": "2",
+      "unit_price": "965.50",
+      "line_total": "1931.00"
+    },
+    {
+      "description": "Handover session - phase 10",
+      "quantity": "3",
+      "unit_price": "605.25",
+      "line_total": "1815.75"
+    },
+    {
+      "description": "Consulting session - phase 10",
+      "quantity": "1",
+      "unit_price": "1405.25",
+      "line_total": "1405.25"
+    },
+    {
+      "description": "Technical documentation - phase 10",
+      "quantity": "2",
+      "unit_price": "1030.75",
+      "line_total": "2061.50"
+    },
+    {
+      "description": "Data preparation - phase 10",
+      "quantity": "3",
+      "unit_price": "795.50",
+      "line_total": "2386.50"
+    },
+    {
+      "description": "Quality assurance review - phase 10",
+      "quantity": "1",
+      "unit_price": "581.00",
+      "line_total": "581.00"
+    },
+    {
+      "description": "Deployment support - phase 10",
+      "quantity": "2",
+      "unit_price": "1655.25",
+      "line_total": "3310.50"
+    },
+    {
+      "description": "Training materials - phase 10",
+      "quantity": "3",
+      "unit_price": "380.75",
+      "line_total": "1142.25"
+    },
+    {
+      "description": "Design consultation - phase 10",
+      "quantity": "1",
+      "unit_price": "1105.25",
+      "line_total": "1105.25"
+    },
+    {
+      "description": "Monthly maintenance - phase 10",
+      "quantity": "2",
+      "unit_price": "530.50",
+      "line_total": "1061.00"
+    },
+    {
+      "description": "Research summary - phase 10",
+      "quantity": "3",
+      "unit_price": "875.75",
+      "line_total": "2627.25"
+    }
+  ],
+  "subtotal": "20143.25",
+  "tax": "3625.79",
+  "total": "23769.04"
+}

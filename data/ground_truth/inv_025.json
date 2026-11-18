@@ -1,0 +1,60 @@
+{
+  "vendor_name": "Willow Systems",
+  "invoice_number": "INV-2026-025",
+  "invoice_date": "2026-03-25",
+  "due_date": "2026-04-24",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Consulting session - phase 25",
+      "quantity": "1",
+      "unit_price": "1664.00",
+      "line_total": "1664.00"
+    },
+    {
+      "description": "Technical documentation - phase 25",
+      "quantity": "2",
+      "unit_price": "1289.50",
+      "line_total": "2579.00"
+    },
+    {
+      "description": "Data preparation - phase 25",
+      "quantity": "3",
+      "unit_price": "1054.25",
+      "line_total": "3162.75"
+    },
+    {
+      "description": "Quality assurance review - phase 25",
+      "quantity": "1",
+      "unit_price": "839.75",
+      "line_total": "839.75"
+    },
+    {
+      "description": "Deployment support - phase 25",
+      "quantity": "2",
+      "unit_price": "1914.00",
+      "line_total": "3828.00"
+    },
+    {
+      "description": "Training materials - phase 25",
+      "quantity": "3",
+      "unit_price": "639.50",
+      "line_total": "1918.50"
+    },
+    {
+      "description": "Design consultation - phase 25",
+      "quantity": "1",
+      "unit_price": "1364.00",
+      "line_total": "1364.00"
+    },
+    {
+      "description": "Monthly maintenance - phase 25",
+      "quantity": "2",
+      "unit_price": "789.25",
+      "line_total": "1578.50"
+    }
+  ],
+  "subtotal": "16934.50",
+  "tax": "3048.21",
+  "total": "19982.71"
+}

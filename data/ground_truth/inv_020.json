@@ -1,0 +1,84 @@
+{
+  "vendor_name": "Orchid Studio",
+  "invoice_number": "INV-2026-020",
+  "invoice_date": "2026-03-20",
+  "due_date": "2026-04-19",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Monthly maintenance - phase 20",
+      "quantity": "1",
+      "unit_price": "703.00",
+      "line_total": "703.00"
+    },
+    {
+      "description": "Research summary - phase 20",
+      "quantity": "1",
+      "unit_price": "1048.25",
+      "line_total": "1048.25"
+    },
+    {
+      "description": "Process review - phase 20",
+      "quantity": "1",
+      "unit_price": "888.50",
+      "line_total": "888.50"
+    },
+    {
+      "description": "Configuration service - phase 20",
+      "quantity": "1",
+      "unit_price": "1138.00",
+      "line_total": "1138.00"
+    },
+    {
+      "description": "Handover session - phase 20",
+      "quantity": "1",
+      "unit_price": "777.75",
+      "line_total": "777.75"
+    },
+    {
+      "description": "Consulting session - phase 20",
+      "quantity": "1",
+      "unit_price": "1577.75",
+      "line_total": "1577.75"
+    },
+    {
+      "description": "Technical documentation - phase 20",
+      "quantity": "1",
+      "unit_price": "1203.25",
+      "line_total": "1203.25"
+    },
+    {
+      "description": "Data preparation - phase 20",
+      "quantity": "1",
+      "unit_price": "968.00",
+      "line_total": "968.00"
+    },
+    {
+      "description": "Quality assurance review - phase 20",
+      "quantity": "1",
+      "unit_price": "753.50",
+      "line_total": "753.50"
+    },
+    {
+      "description": "Deployment support - phase 20",
+      "quantity": "1",
+      "unit_price": "1827.75",
+      "line_total": "1827.75"
+    },
+    {
+      "description": "Training materials - phase 20",
+      "quantity": "1",
+      "unit_price": "553.25",
+      "line_total": "553.25"
+    },
+    {
+      "description": "Design consultation - phase 20",
+      "quantity": "1",
+      "unit_price": "1277.75",
+      "line_total": "1277.75"
+    }
+  ],
+  "subtotal": "12716.75",
+  "tax": "2289.02",
+  "total": "15005.77"
+}

@@ -1,0 +1,42 @@
+{
+  "vendor_name": "Cedar Consulting",
+  "invoice_number": "INV-2026-004",
+  "invoice_date": "2026-03-04",
+  "due_date": "2026-04-03",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Quality assurance review - phase 4",
+      "quantity": "1",
+      "unit_price": "477.50",
+      "line_total": "477.50"
+    },
+    {
+      "description": "Deployment support - phase 4",
+      "quantity": "2",
+      "unit_price": "1551.75",
+      "line_total": "3103.50"
+    },
+    {
+      "description": "Training materials - phase 4",
+      "quantity": "3",
+      "unit_price": "277.25",
+      "line_total": "831.75"
+    },
+    {
+      "description": "Design consultation - phase 4",
+      "quantity": "1",
+      "unit_price": "1001.75",
+      "line_total": "1001.75"
+    },
+    {
+      "description": "Monthly maintenance - phase 4",
+      "quantity": "2",
+      "unit_price": "427.00",
+      "line_total": "854.00"
+    }
+  ],
+  "subtotal": "6268.50",
+  "tax": "1128.33",
+  "total": "7396.83"
+}

@@ -1,0 +1,24 @@
+{
+  "vendor_name": "Cedar Consulting",
+  "invoice_number": "INV-2026-002",
+  "invoice_date": "2026-03-02",
+  "due_date": "2026-04-01",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Technical documentation - phase 2",
+      "quantity": "2",
+      "unit_price": "892.75",
+      "line_total": "1785.50"
+    },
+    {
+      "description": "Data preparation - phase 2",
+      "quantity": "3",
+      "unit_price": "657.50",
+      "line_total": "1972.50"
+    }
+  ],
+  "subtotal": "3758.00",
+  "tax": "676.44",
+  "total": "4434.44"
+}

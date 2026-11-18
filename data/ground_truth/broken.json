@@ -1,0 +1,19 @@
+{
+  "inv_028.pdf": {
+    "expected_failures": [
+      "SUBTOTAL_MISMATCH"
+    ]
+  },
+  "inv_029.pdf": {
+    "expected_failures": [
+      "MISSING_FIELD"
+    ],
+    "missing_field": "vendor_name"
+  },
+  "inv_030.pdf": {
+    "expected_failures": [
+      "DUPLICATE"
+    ],
+    "duplicate_of": "inv_001.pdf"
+  }
+}

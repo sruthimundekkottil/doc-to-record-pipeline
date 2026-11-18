@@ -1,0 +1,36 @@
+{
+  "vendor_name": "Harbor Services",
+  "invoice_number": "INV-2026-007",
+  "invoice_date": "2026-03-07",
+  "due_date": "2026-04-06",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Design consultation - phase 7",
+      "quantity": "1",
+      "unit_price": "1053.50",
+      "line_total": "1053.50"
+    },
+    {
+      "description": "Monthly maintenance - phase 7",
+      "quantity": "2",
+      "unit_price": "478.75",
+      "line_total": "957.50"
+    },
+    {
+      "description": "Research summary - phase 7",
+      "quantity": "3",
+      "unit_price": "824.00",
+      "line_total": "2472.00"
+    },
+    {
+      "description": "Process review - phase 7",
+      "quantity": "1",
+      "unit_price": "664.25",
+      "line_total": "664.25"
+    }
+  ],
+  "subtotal": "5147.25",
+  "tax": "926.51",
+  "total": "6073.76"
+}

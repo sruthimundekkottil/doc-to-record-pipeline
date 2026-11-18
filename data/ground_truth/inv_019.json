@@ -1,0 +1,66 @@
+{
+  "vendor_name": "Orchid Studio",
+  "invoice_number": "INV-2026-019",
+  "invoice_date": "2026-03-19",
+  "due_date": "2026-04-18",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Design consultation - phase 19",
+      "quantity": "1",
+      "unit_price": "1260.50",
+      "line_total": "1260.50"
+    },
+    {
+      "description": "Monthly maintenance - phase 19",
+      "quantity": "1",
+      "unit_price": "685.75",
+      "line_total": "685.75"
+    },
+    {
+      "description": "Research summary - phase 19",
+      "quantity": "1",
+      "unit_price": "1031.00",
+      "line_total": "1031.00"
+    },
+    {
+      "description": "Process review - phase 19",
+      "quantity": "1",
+      "unit_price": "871.25",
+      "line_total": "871.25"
+    },
+    {
+      "description": "Configuration service - phase 19",
+      "quantity": "1",
+      "unit_price": "1120.75",
+      "line_total": "1120.75"
+    },
+    {
+      "description": "Handover session - phase 19",
+      "quantity": "1",
+      "unit_price": "760.50",
+      "line_total": "760.50"
+    },
+    {
+      "description": "Consulting session - phase 19",
+      "quantity": "1",
+      "unit_price": "1560.50",
+      "line_total": "1560.50"
+    },
+    {
+      "description": "Technical documentation - phase 19",
+      "quantity": "1",
+      "unit_price": "1186.00",
+      "line_total": "1186.00"
+    },
+    {
+      "description": "Data preparation - phase 19",
+      "quantity": "1",
+      "unit_price": "950.75",
+      "line_total": "950.75"
+    }
+  ],
+  "subtotal": "9427.00",
+  "tax": "1696.86",
+  "total": "11123.86"
+}

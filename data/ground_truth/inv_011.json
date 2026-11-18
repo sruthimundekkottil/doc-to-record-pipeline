@@ -1,0 +1,18 @@
+{
+  "vendor_name": "Harbor Services",
+  "invoice_number": "INV-2026-011",
+  "invoice_date": "2026-03-11",
+  "due_date": "2026-04-10",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Configuration service - phase 11",
+      "quantity": "2",
+      "unit_price": "982.75",
+      "line_total": "1965.50"
+    }
+  ],
+  "subtotal": "1965.50",
+  "tax": "353.80",
+  "total": "2319.30"
+}

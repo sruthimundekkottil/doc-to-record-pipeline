@@ -1,0 +1,24 @@
+{
+  "vendor_name": "Harbor Services",
+  "invoice_number": "INV-2026-012",
+  "invoice_date": "2026-03-12",
+  "due_date": "2026-04-11",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Handover session - phase 12",
+      "quantity": "3",
+      "unit_price": "639.75",
+      "line_total": "1919.25"
+    },
+    {
+      "description": "Consulting session - phase 12",
+      "quantity": "1",
+      "unit_price": "1439.75",
+      "line_total": "1439.75"
+    }
+  ],
+  "subtotal": "3359.00",
+  "tax": null,
+  "total": "3359.00"
+}

@@ -1,0 +1,48 @@
+{
+  "vendor_name": "Willow Systems",
+  "invoice_number": "INV-2026-028",
+  "invoice_date": "2026-03-28",
+  "due_date": "2026-04-27",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Quality assurance review - phase 28",
+      "quantity": "1",
+      "unit_price": "891.50",
+      "line_total": "891.50"
+    },
+    {
+      "description": "Deployment support - phase 28",
+      "quantity": "2",
+      "unit_price": "1965.75",
+      "line_total": "3931.50"
+    },
+    {
+      "description": "Training materials - phase 28",
+      "quantity": "3",
+      "unit_price": "691.25",
+      "line_total": "2073.75"
+    },
+    {
+      "description": "Design consultation - phase 28",
+      "quantity": "1",
+      "unit_price": "1415.75",
+      "line_total": "1415.75"
+    },
+    {
+      "description": "Monthly maintenance - phase 28",
+      "quantity": "2",
+      "unit_price": "841.00",
+      "line_total": "1682.00"
+    },
+    {
+      "description": "Research summary - phase 28",
+      "quantity": "3",
+      "unit_price": "1186.25",
+      "line_total": "3558.75"
+    }
+  ],
+  "subtotal": "13653.25",
+  "tax": "2439.59",
+  "total": "16092.84"
+}

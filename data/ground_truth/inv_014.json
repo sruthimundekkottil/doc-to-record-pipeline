@@ -1,0 +1,42 @@
+{
+  "vendor_name": "Summit Analytics",
+  "invoice_number": "INV-2026-014",
+  "invoice_date": "2026-03-14",
+  "due_date": "2026-04-13",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Technical documentation - phase 14",
+      "quantity": "2",
+      "unit_price": "1099.75",
+      "line_total": "2199.50"
+    },
+    {
+      "description": "Data preparation - phase 14",
+      "quantity": "3",
+      "unit_price": "864.50",
+      "line_total": "2593.50"
+    },
+    {
+      "description": "Quality assurance review - phase 14",
+      "quantity": "1",
+      "unit_price": "650.00",
+      "line_total": "650.00"
+    },
+    {
+      "description": "Deployment support - phase 14",
+      "quantity": "2",
+      "unit_price": "1724.25",
+      "line_total": "3448.50"
+    },
+    {
+      "description": "Training materials - phase 14",
+      "quantity": "3",
+      "unit_price": "449.75",
+      "line_total": "1349.25"
+    }
+  ],
+  "subtotal": "10240.75",
+  "tax": "1843.34",
+  "total": "12084.09"
+}

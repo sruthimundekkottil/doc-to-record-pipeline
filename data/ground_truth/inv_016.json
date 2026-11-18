@@ -1,0 +1,24 @@
+{
+  "vendor_name": "Summit Analytics",
+  "invoice_number": "INV-2026-016",
+  "invoice_date": "2026-03-16",
+  "due_date": "2026-04-15",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Quality assurance review - phase 16",
+      "quantity": "1",
+      "unit_price": "684.50",
+      "line_total": "684.50"
+    },
+    {
+      "description": "Deployment support - phase 16",
+      "quantity": "2",
+      "unit_price": "1758.75",
+      "line_total": "3517.50"
+    }
+  ],
+  "subtotal": "4202.00",
+  "tax": "756.36",
+  "total": "4958.36"
+}

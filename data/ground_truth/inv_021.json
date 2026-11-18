@@ -1,0 +1,18 @@
+{
+  "vendor_name": "Orchid Studio",
+  "invoice_number": "INV-2026-021",
+  "invoice_date": "2026-03-21",
+  "due_date": "2026-04-20",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Research summary - phase 21",
+      "quantity": "1",
+      "unit_price": "1065.50",
+      "line_total": "1065.50"
+    }
+  ],
+  "subtotal": "1065.50",
+  "tax": null,
+  "total": "1065.50"
+}

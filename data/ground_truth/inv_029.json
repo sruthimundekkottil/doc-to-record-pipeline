@@ -1,0 +1,66 @@
+{
+  "vendor_name": null,
+  "invoice_number": "INV-2026-029",
+  "invoice_date": "2026-03-29",
+  "due_date": "2026-04-28",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Deployment support - phase 29",
+      "quantity": "2",
+      "unit_price": "1983.00",
+      "line_total": "3966.00"
+    },
+    {
+      "description": "Training materials - phase 29",
+      "quantity": "3",
+      "unit_price": "708.50",
+      "line_total": "2125.50"
+    },
+    {
+      "description": "Design consultation - phase 29",
+      "quantity": "1",
+      "unit_price": "1433.00",
+      "line_total": "1433.00"
+    },
+    {
+      "description": "Monthly maintenance - phase 29",
+      "quantity": "2",
+      "unit_price": "858.25",
+      "line_total": "1716.50"
+    },
+    {
+      "description": "Research summary - phase 29",
+      "quantity": "3",
+      "unit_price": "1203.50",
+      "line_total": "3610.50"
+    },
+    {
+      "description": "Process review - phase 29",
+      "quantity": "1",
+      "unit_price": "1043.75",
+      "line_total": "1043.75"
+    },
+    {
+      "description": "Configuration service - phase 29",
+      "quantity": "2",
+      "unit_price": "1293.25",
+      "line_total": "2586.50"
+    },
+    {
+      "description": "Handover session - phase 29",
+      "quantity": "3",
+      "unit_price": "933.00",
+      "line_total": "2799.00"
+    },
+    {
+      "description": "Consulting session - phase 29",
+      "quantity": "1",
+      "unit_price": "1733.00",
+      "line_total": "1733.00"
+    }
+  ],
+  "subtotal": "21013.75",
+  "tax": "3782.48",
+  "total": "24796.23"
+}

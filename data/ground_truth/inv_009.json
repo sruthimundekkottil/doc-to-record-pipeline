@@ -1,0 +1,66 @@
+{
+  "vendor_name": "Harbor Services",
+  "invoice_number": "INV-2026-009",
+  "invoice_date": "2026-03-09",
+  "due_date": "2026-04-08",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Research summary - phase 9",
+      "quantity": "3",
+      "unit_price": "858.50",
+      "line_total": "2575.50"
+    },
+    {
+      "description": "Process review - phase 9",
+      "quantity": "1",
+      "unit_price": "698.75",
+      "line_total": "698.75"
+    },
+    {
+      "description": "Configuration service - phase 9",
+      "quantity": "2",
+      "unit_price": "948.25",
+      "line_total": "1896.50"
+    },
+    {
+      "description": "Handover session - phase 9",
+      "quantity": "3",
+      "unit_price": "588.00",
+      "line_total": "1764.00"
+    },
+    {
+      "description": "Consulting session - phase 9",
+      "quantity": "1",
+      "unit_price": "1388.00",
+      "line_total": "1388.00"
+    },
+    {
+      "description": "Technical documentation - phase 9",
+      "quantity": "2",
+      "unit_price": "1013.50",
+      "line_total": "2027.00"
+    },
+    {
+      "description": "Data preparation - phase 9",
+      "quantity": "3",
+      "unit_price": "778.25",
+      "line_total": "2334.75"
+    },
+    {
+      "description": "Quality assurance review - phase 9",
+      "quantity": "1",
+      "unit_price": "563.75",
+      "line_total": "563.75"
+    },
+    {
+      "description": "Deployment support - phase 9",
+      "quantity": "2",
+      "unit_price": "1638.00",
+      "line_total": "3276.00"
+    }
+  ],
+  "subtotal": "16524.25",
+  "tax": null,
+  "total": "16524.25"
+}

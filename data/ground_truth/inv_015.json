@@ -1,0 +1,60 @@
+{
+  "vendor_name": "Summit Analytics",
+  "invoice_number": "INV-2026-015",
+  "invoice_date": "2026-03-15",
+  "due_date": "2026-04-14",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Data preparation - phase 15",
+      "quantity": "3",
+      "unit_price": "881.75",
+      "line_total": "2645.25"
+    },
+    {
+      "description": "Quality assurance review - phase 15",
+      "quantity": "1",
+      "unit_price": "667.25",
+      "line_total": "667.25"
+    },
+    {
+      "description": "Deployment support - phase 15",
+      "quantity": "2",
+      "unit_price": "1741.50",
+      "line_total": "3483.00"
+    },
+    {
+      "description": "Training materials - phase 15",
+      "quantity": "3",
+      "unit_price": "467.00",
+      "line_total": "1401.00"
+    },
+    {
+      "description": "Design consultation - phase 15",
+      "quantity": "1",
+      "unit_price": "1191.50",
+      "line_total": "1191.50"
+    },
+    {
+      "description": "Monthly maintenance - phase 15",
+      "quantity": "2",
+      "unit_price": "616.75",
+      "line_total": "1233.50"
+    },
+    {
+      "description": "Research summary - phase 15",
+      "quantity": "3",
+      "unit_price": "962.00",
+      "line_total": "2886.00"
+    },
+    {
+      "description": "Process review - phase 15",
+      "quantity": "1",
+      "unit_price": "802.25",
+      "line_total": "802.25"
+    }
+  ],
+  "subtotal": "14309.75",
+  "tax": null,
+  "total": "14309.75"
+}

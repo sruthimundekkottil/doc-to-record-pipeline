@@ -1,0 +1,24 @@
+{
+  "vendor_name": "Cedar Consulting",
+  "invoice_number": "INV-2026-006",
+  "invoice_date": "2026-03-06",
+  "due_date": "2026-04-05",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Training materials - phase 6",
+      "quantity": "3",
+      "unit_price": "311.75",
+      "line_total": "935.25"
+    },
+    {
+      "description": "Design consultation - phase 6",
+      "quantity": "1",
+      "unit_price": "1036.25",
+      "line_total": "1036.25"
+    }
+  ],
+  "subtotal": "1971.50",
+  "tax": null,
+  "total": "1971.50"
+}

@@ -1,0 +1,42 @@
+{
+  "vendor_name": "Orchid Studio",
+  "invoice_number": "INV-2026-024",
+  "invoice_date": "2026-03-24",
+  "due_date": "2026-04-23",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Handover session - phase 24",
+      "quantity": "1",
+      "unit_price": "846.75",
+      "line_total": "846.75"
+    },
+    {
+      "description": "Consulting session - phase 24",
+      "quantity": "1",
+      "unit_price": "1646.75",
+      "line_total": "1646.75"
+    },
+    {
+      "description": "Technical documentation - phase 24",
+      "quantity": "1",
+      "unit_price": "1272.25",
+      "line_total": "1272.25"
+    },
+    {
+      "description": "Data preparation - phase 24",
+      "quantity": "1",
+      "unit_price": "1037.00",
+      "line_total": "1037.00"
+    },
+    {
+      "description": "Quality assurance review - phase 24",
+      "quantity": "1",
+      "unit_price": "822.50",
+      "line_total": "822.50"
+    }
+  ],
+  "subtotal": "5625.25",
+  "tax": null,
+  "total": "5625.25"
+}

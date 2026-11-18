@@ -1,0 +1,36 @@
+{
+  "vendor_name": "Summit Analytics",
+  "invoice_number": "INV-2026-017",
+  "invoice_date": "2026-03-17",
+  "due_date": "2026-04-16",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Deployment support - phase 17",
+      "quantity": "2",
+      "unit_price": "1776.00",
+      "line_total": "3552.00"
+    },
+    {
+      "description": "Training materials - phase 17",
+      "quantity": "3",
+      "unit_price": "501.50",
+      "line_total": "1504.50"
+    },
+    {
+      "description": "Design consultation - phase 17",
+      "quantity": "1",
+      "unit_price": "1226.00",
+      "line_total": "1226.00"
+    },
+    {
+      "description": "Monthly maintenance - phase 17",
+      "quantity": "2",
+      "unit_price": "651.25",
+      "line_total": "1302.50"
+    }
+  ],
+  "subtotal": "7585.00",
+  "tax": "1365.30",
+  "total": "8950.30"
+}

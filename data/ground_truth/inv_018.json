@@ -1,0 +1,48 @@
+{
+  "vendor_name": "Summit Analytics",
+  "invoice_number": "INV-2026-018",
+  "invoice_date": "2026-03-18",
+  "due_date": "2026-04-17",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Training materials - phase 18",
+      "quantity": "3",
+      "unit_price": "518.75",
+      "line_total": "1556.25"
+    },
+    {
+      "description": "Design consultation - phase 18",
+      "quantity": "1",
+      "unit_price": "1243.25",
+      "line_total": "1243.25"
+    },
+    {
+      "description": "Monthly maintenance - phase 18",
+      "quantity": "2",
+      "unit_price": "668.50",
+      "line_total": "1337.00"
+    },
+    {
+      "description": "Research summary - phase 18",
+      "quantity": "3",
+      "unit_price": "1013.75",
+      "line_total": "3041.25"
+    },
+    {
+      "description": "Process review - phase 18",
+      "quantity": "1",
+      "unit_price": "854.00",
+      "line_total": "854.00"
+    },
+    {
+      "description": "Configuration service - phase 18",
+      "quantity": "2",
+      "unit_price": "1103.50",
+      "line_total": "2207.00"
+    }
+  ],
+  "subtotal": "10238.75",
+  "tax": null,
+  "total": "10238.75"
+}

@@ -1,0 +1,30 @@
+{
+  "vendor_name": "Summit Analytics",
+  "invoice_number": "INV-2026-013",
+  "invoice_date": "2026-03-13",
+  "due_date": "2026-04-12",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Consulting session - phase 13",
+      "quantity": "1",
+      "unit_price": "1457.00",
+      "line_total": "1457.00"
+    },
+    {
+      "description": "Technical documentation - phase 13",
+      "quantity": "2",
+      "unit_price": "1082.50",
+      "line_total": "2165.00"
+    },
+    {
+      "description": "Data preparation - phase 13",
+      "quantity": "3",
+      "unit_price": "847.25",
+      "line_total": "2541.75"
+    }
+  ],
+  "subtotal": "6163.75",
+  "tax": "1109.48",
+  "total": "7273.23"
+}

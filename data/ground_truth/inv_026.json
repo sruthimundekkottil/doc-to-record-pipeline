@@ -1,0 +1,24 @@
+{
+  "vendor_name": "Willow Systems",
+  "invoice_number": "INV-2026-026",
+  "invoice_date": "2026-03-26",
+  "due_date": "2026-04-25",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Technical documentation - phase 26",
+      "quantity": "2",
+      "unit_price": "1306.75",
+      "line_total": "2613.50"
+    },
+    {
+      "description": "Data preparation - phase 26",
+      "quantity": "3",
+      "unit_price": "1071.50",
+      "line_total": "3214.50"
+    }
+  ],
+  "subtotal": "5828.00",
+  "tax": "1049.04",
+  "total": "6877.04"
+}
