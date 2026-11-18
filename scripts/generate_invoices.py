@@ -168,9 +168,8 @@ def _render_pdf(invoice, taxes, number):
             y = _draw_header(canvas, invoice, taxes, number, page)
         canvas.setFillColor(HexColor("#252525"))
         canvas.setFont("Helvetica", 9)
-        description, phase = item["description"].rsplit(" - ", 1)
+        description = item["description"]
         canvas.drawString(58, y, description)
-        canvas.drawString(58, y - 11, phase)
         if layout != 3:
             canvas.drawRightString(345, y, str(item["quantity"]))
             canvas.drawRightString(435, y, f"{item['unit_price']:.2f}")

@@ -171,6 +171,29 @@ def list_documents(status=None, limit=20, offset=0):
         ).fetchall()
 
 
+def evaluation_documents(filenames):
+    """Read the latest attempt per fixture and its original automatic routing."""
+    with transaction() as connection:
+        connection.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ, READ ONLY")
+        rows = connection.execute("""
+            SELECT DISTINCT ON (d.source_filename) d.id,
+                (SELECT detail->>'status' FROM processing_log
+                 WHERE document_id = d.id AND stage = 'route'
+                 ORDER BY id LIMIT 1) AS automatic_status,
+                (SELECT sum(duration_ms) FROM processing_log
+                 WHERE document_id = d.id AND outcome <> 'retry'
+                   AND stage IN ('ingest', 'text', 'extract', 'validate', 'route', 'persist')) AS latency_ms,
+                (SELECT sum(prompt_tokens + output_tokens) FROM processing_log
+                 WHERE document_id = d.id AND stage = 'extract'
+                   AND outcome <> 'retry') AS tokens
+            FROM documents d WHERE d.source_filename = ANY(%s)
+            ORDER BY d.source_filename, d.created_at DESC, d.id DESC
+        """, (list(filenames),)).fetchall()
+        return [{**get_document(row["id"], connection),
+                 "automatic_status": row["automatic_status"],
+                 "latency_ms": row["latency_ms"], "tokens": row["tokens"]} for row in rows]
+
+
 def approve_document(document_id):
     """Approve a flagged record and atomically record the human override."""
     started = time.perf_counter()

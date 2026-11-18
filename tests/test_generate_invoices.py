@@ -23,6 +23,15 @@ def test_generated_corpus():
         assert (subtotal != Decimal(truth["subtotal"])) == (path.stem == "inv_028")
         with pdfplumber.open(path) as pdf:
             text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+            rendered_descriptions = [
+                line["text"]
+                for page in pdf.pages
+                for line in page.crop((58, 0, 310, page.height)).extract_text_lines()
+                if "phase" in line["text"]
+            ]
+        assert [value.encode("utf-8") for value in rendered_descriptions] == [
+            item["description"].encode("utf-8") for item in truth["line_items"]
+        ]
         assert "Tax (no tax)" not in text
         if path.stem == "inv_013":
             assert text.index("Subtotal") < text.index("Description")

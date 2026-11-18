@@ -15,7 +15,7 @@ FIELDS = ("vendor_name", "invoice_number", "invoice_date", "due_date", "total",
           "line_items_count", "line_items")
 
 
-def _vendor(value):
+def _normalise_text(value):
     return " ".join(value.casefold().split()) if value is not None else None
 
 
@@ -24,7 +24,7 @@ def _date(value):
 
 
 def _items(items):
-    return [(item["description"], *(Decimal(item[key]) if item[key] is not None else None
+    return [(_normalise_text(item["description"]), *(Decimal(item[key]) if item[key] is not None else None
              for key in ("quantity", "unit_price", "line_total"))) for item in items]
 
 
@@ -32,7 +32,7 @@ def compare(record, truth):
     """Compare individual fields, requiring equal counts before ordered item matches."""
     total, expected = record["total"], truth["total"]
     matches = {
-        "vendor_name": _vendor(record["vendor_name"]) == _vendor(truth["vendor_name"]),
+        "vendor_name": _normalise_text(record["vendor_name"]) == _normalise_text(truth["vendor_name"]),
         "invoice_number": record["invoice_number"] == truth["invoice_number"],
         "invoice_date": _date(record["invoice_date"]) == _date(truth["invoice_date"]),
         "due_date": _date(record["due_date"]) == _date(truth["due_date"]),
@@ -69,6 +69,11 @@ def report(records, truths, broken):
               f"| Auto-approval rate | {_rate(approved, len(records))} | {approved}/{len(records)} stored fixtures; original route |",
               f"| Flagging precision | {_rate(true_flags, len(flagged))} | {true_flags}/{len(flagged)} flagged fixtures are in broken.json |",
               f"| Mean confidence | {mean} | {len(scores)} non-null stored confidence values |"]
+    for key, label in (("latency_ms", "Mean logged latency (ms)"), ("tokens", "Mean tokens")):
+        values = [record[key] for record in records if record.get(key) is not None]
+        if values:
+            average = sum(values, Decimal("0")) / len(values)
+            lines.append(f"| {label} | {average:.2f} | {len(values)} records with audit measurements; retries not double-counted |")
     return "\n".join(lines)
 
 
